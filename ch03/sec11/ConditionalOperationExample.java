@@ -19,6 +19,7 @@ public class ConditionalOperationExample {
 			String str = scanner.nextLine();
 			
 			if(str.equals("q") || str.equals("Q")) {
+//			if(str == "q" || str == "Q") { // 이렇게 하면 에러
 				break;
 			}
 			score = Integer.parseInt(str);
